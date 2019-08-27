@@ -57,7 +57,7 @@ class Pessoa{
 			  ";
 	}
 	
-	function exibe_tr(){
+	function exibe_trPessoa(){
 		echo "<tr>
 				<td>".$this->nome."</td>
 				<td>".$this->email."</td>
@@ -67,8 +67,7 @@ class Pessoa{
 				<td>".$this->endereco."</td>
 				<td>".$this->cidade."</td>
 				<td>".$this->estado."</td>
-				<td>".$this->pais."</td>
-			  </tr>";
+				<td>".$this->pais."</td>";
 	}
 
 }

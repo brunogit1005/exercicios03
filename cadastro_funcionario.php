@@ -8,7 +8,7 @@
 	</head>
 	<body>
 	<?php
-		include("classePessoa.php");
+		include("classeFuncionario.php");
 		include("cabecalho.php");
 		
 		$p = new Funcionario ($_POST);

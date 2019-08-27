@@ -10,7 +10,7 @@
 
 		public function __construct($vetor){
             parent::__construct($vetor);
-            $this->area = $vetor["salario"];
+            $this->salario = $vetor["salario"];
             $this->area = $vetor["area"];
 			$this->turno = $vetor["turno"];
             

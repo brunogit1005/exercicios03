@@ -2,7 +2,7 @@
 
 	include ("classeProduto.php");
 
-	class Perecivel extends Pessoa{		
+	class Perecivel extends Produto{		
 		public $data_validade;
 
 		public function __construct($vetor){

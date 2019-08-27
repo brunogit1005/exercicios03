@@ -8,7 +8,7 @@
 	</head>
 	<body>
 	<?php
-		include("classeProduto.php");
+		include("classeProdutoNP.php");
 		include("cabecalho.php");
 		
 		$p = new NaoPerecivel($_POST);

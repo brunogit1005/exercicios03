@@ -19,6 +19,10 @@
 		
 		function exibe_tr(){
 			$this->exibe_trPessoa();
+			
+			echo "</tr>";			
+
+
 		}
 	}
 	

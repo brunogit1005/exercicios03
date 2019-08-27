@@ -8,7 +8,7 @@
 	</head>
 	<body>
 	<?php
-		include("classeProduto.php");
+		include("classeProdutoP.php");
 		include("cabecalho.php");
 		
 		$p = new Perecivel($_POST);

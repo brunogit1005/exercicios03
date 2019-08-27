@@ -15,6 +15,7 @@
 		
 	?>
 	<table border='1'>
+		
 		<tbody>
 			<?php
 				foreach($_SESSION["cliente"] as $i=>$p){
